@@ -4,7 +4,7 @@ metadata:
   name: rp-ambulance-ufe-content
 spec:
   microFrontend: rp-ambulance-ufe
-  element: rp-ambulance-wl-list
+  element: rp-ambulance-wl-app
   displayRules:
     - allOf:
       - context-name: main-content
