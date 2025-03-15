@@ -2,6 +2,11 @@ apiVersion: polyfea.github.io/v1alpha1
 kind: WebComponent
 metadata:
   name: rp-ambulance-ufe-content
+attributes:
+  - name: api-base
+    value: http://localhost:5001/api
+  - name: ambulance-id
+    value: bobulova
 spec:
   microFrontend: rp-ambulance-ufe
   element: rp-ambulance-wl-app
