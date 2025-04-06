@@ -1,25 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: xprikryl-ambulance-vp-deployment      # meno deployment-u od ktorého sa odvádza meno podu
+  name: xprikryl-ambulance-vp-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app.kubernetes.io/component: xprikryl-ambulance-vp
+      app.kubernetes.io/name: xprikryl-ambulance-vp
       app.kubernetes.io/part-of: wac-hospital
-      pod: xprikryl-ambulance-vp-label    # tento riadok je len označenie štítku
-                                    # key-value pair pod=ambualnce ufe
-                                    # určený pre výber podov s rovnakým štítkom
-  template:                    # šablóna pre vytvorenie replík podov
+  template:
     metadata:
       labels:
-        app.kubernetes.io/component: xprikryl-ambulance-vp
+        app.kubernetes.io/name: xprikryl-ambulance-vp
         app.kubernetes.io/part-of: wac-hospital
-        pod: xprikryl-ambulance-vp-label    # štítky podu
     spec:
       containers:
-      - name: ambulance-vp-container # meno kontaineru - v pod-e ich môže byť viac
+      - name: ambulance-vp-container
         image: xprikryl/ambulance-virtual-patient
         imagePullPolicy: Always
 
