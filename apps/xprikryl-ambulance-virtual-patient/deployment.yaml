@@ -6,12 +6,16 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-        pod: xprikryl-ambulance-vp-label    # tento riadok je len označenie štítku
+      app.kubernetes.io/component: xprikryl-ambulance-vp
+      app.kubernetes.io/part-of: wac-hospital
+      pod: xprikryl-ambulance-vp-label    # tento riadok je len označenie štítku
                                     # key-value pair pod=ambualnce ufe
                                     # určený pre výber podov s rovnakým štítkom
   template:                    # šablóna pre vytvorenie replík podov
     metadata:
       labels:
+        app.kubernetes.io/component: xprikryl-ambulance-vp
+        app.kubernetes.io/part-of: wac-hospital
         pod: xprikryl-ambulance-vp-label    # štítky podu
     spec:
       containers:

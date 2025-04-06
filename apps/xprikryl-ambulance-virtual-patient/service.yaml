@@ -4,7 +4,9 @@ metadata:
   name: xprikryl-ambulance-virtual-patient   #  určuje aj záznam DNS v rámci virtuálne siete klastra
 spec:
   selector:
-    pod: xprikryl-ambulance-vp-label     # zhoduje sa s metadata.labels šablóny pod-u
+    app.kubernetes.io/component: xprikryl-ambulance-vp
+    app.kubernetes.io/part-of: wac-hospital
+    pod: xprikryl-ambulance-vp-label
   ports:
   - name: http
     protocol: TCP

@@ -10,4 +10,4 @@ resources:
 
 labels:
 - pairs:
-    app.kubernetes.io/component: rp-ambulance-ufe
+    app.kubernetes.io/component: xprikryl-ambulance-vp
