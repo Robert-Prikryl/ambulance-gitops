@@ -5,6 +5,9 @@ labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
     app.kubernetes.io/name: rp-ambulance-wl
+- pairs:
+    app.kubernetes.io/part-of: wac-hospital
+    app.kubernetes.io/name: xprikryl-ambulance-vp
 
 namespace: wac-hospital
 

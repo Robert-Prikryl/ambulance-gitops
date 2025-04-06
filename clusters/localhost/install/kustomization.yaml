@@ -9,6 +9,7 @@ labels:
 
 resources:
 - ../../../apps/rp-ambulance-ufe
+- ../../../apps/xprikryl-ambulance-virtual-patient
 
 components:
 - ../../../components/version-developers

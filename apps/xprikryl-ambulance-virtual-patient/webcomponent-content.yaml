@@ -1,0 +1,16 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: xprikryl-ambulance-virtual-patient-content
+spec:
+  microFrontend: xprikryl-ambulance-virtual-patient
+  element: xprikryl-vp-list
+  attributes:
+    - name: api-base
+      value: http://localhost:5001/api
+    - name: ambulance-id
+      value: bobulova
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?xprikryl-vp-list(/.*)?$"

@@ -9,9 +9,15 @@ labels:
     app.kubernetes.io/name: rp-ambulance-wl
   includeSelectors: true
   includeTemplates: true
+- pairs:
+    app.kubernetes.io/part-of: wac-hospital
+    app.kubernetes.io/name: xprikryl-ambulance-vp
+  includeSelectors: true
+  includeTemplates: true
 
 resources:
 - ../../../apps/rp-ambulance-ufe
+- ../../../apps/xprikryl-ambulance-virtual-patient
 
 
 components:
