@@ -9,7 +9,12 @@ labels:
 
 resources:
 - ../../../apps/rp-ambulance-ufe
+- ../../../apps/rp-ambulance-webapi
 - ../../../apps/xprikryl-ambulance-virtual-patient
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/Robert-Prikryl/ambulance-webapi//deployments/kustomize/components/mongodb

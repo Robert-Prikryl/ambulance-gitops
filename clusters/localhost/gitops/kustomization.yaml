@@ -15,3 +15,7 @@ resources:
 - ambulance-ufe.image-repository.yaml
 - ambulance-ufe.image-policy.yaml
 - image-update-automation.yaml
+- ambulance-webapi.image-repository.yaml
+- ambulance-webapi.image-policy.yaml
+- ambulance-virtual-patient.image-repository.yaml
+- ambulance-virtual-patient.image-policy.yaml
