@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: xprikryl/ambulance-ufe
   newName: xprikryl/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
-  newTag: main.20250224.1025 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+  newTag: main.20250317.1104 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
 - name: xprikryl/ambulance-virtual-patient
   newName: xprikryl/ambulance-virtual-patient # {"$imagepolicy":  "wac-hospital:ambulance-virtual-patient:name"}
   newTag: main.20250224.1025 # {"$imagepolicy": "wac-hospital:ambulance-virtual-patient:tag"}
