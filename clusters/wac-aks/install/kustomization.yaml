@@ -18,6 +18,7 @@ labels:
 resources:
 - ../../../apps/rp-ambulance-ufe
 - ../../../apps/xprikryl-ambulance-virtual-patient
+- ../../../apps/rp-ambulance-webapi
 
 
 components:
