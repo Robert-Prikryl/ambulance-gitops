@@ -22,3 +22,4 @@ patches:
 components:
 - ../../../components/version-developers
 - https://github.com/Robert-Prikryl/ambulance-webapi//deployments/kustomize/components/mongodb
+- https://github.com/Robert-Prikryl/ambulance-virtual-patient-api//deployments/kustomize/components/mongodb
