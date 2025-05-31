@@ -6,11 +6,13 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      pod: xprikryl-ambulance-virtual-patient-label
+      app.kubernetes.io/name: xprikryl-ambulance-vp
+      app.kubernetes.io/part-of: wac-hospital
   template:
     metadata:
       labels:
-        pod: xprikryl-ambulance-virtual-patient-label
+        app.kubernetes.io/name: xprikryl-ambulance-vp
+        app.kubernetes.io/part-of: wac-hospital
     spec:
       containers:
       - name: ambulance-vp-container

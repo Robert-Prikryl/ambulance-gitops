@@ -8,5 +8,6 @@ resources:
 - webcomponent-content.yaml
 - http-route.yaml
 
-commonLabels:
-  app.kubernetes.io/component: mongo-express
+labels:
+- pairs:
+    app.kubernetes.io/component: mongo-express

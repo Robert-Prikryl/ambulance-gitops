@@ -6,11 +6,13 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      pod: rp-ambulance-ufe-label
+      app.kubernetes.io/name: rp-ambulance-wl
+      app.kubernetes.io/part-of: wac-hospital
   template:
     metadata:
       labels:
-        pod: rp-ambulance-ufe-label
+        app.kubernetes.io/name: rp-ambulance-wl
+        app.kubernetes.io/part-of: wac-hospital
     spec:
       containers:
       - name: ambulance-ufe-container
