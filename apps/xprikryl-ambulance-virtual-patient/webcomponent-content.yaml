@@ -4,13 +4,13 @@ metadata:
   name: xprikryl-ambulance-virtual-patient-content
 spec:
   microFrontend: xprikryl-ambulance-virtual-patient
-  element: xprikryl-vp-list
+  element: xprikryl-vp-manager
   attributes:
     - name: api-base
-      value: /api/virtual-patient
+      value: /virtual-patient-api
     - name: base-path
-      value: /xprikryl-ambulance-virtual-patient
+      value: /xprikryl-ambulance-virtual-patient/
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?xprikryl-vp-list(/.*)?$"
+      - path: "^(\\.?/)?xprikryl-ambulance-virtual-patient(/.*)?$"

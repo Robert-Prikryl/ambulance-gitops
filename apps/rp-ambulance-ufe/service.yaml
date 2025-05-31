@@ -4,8 +4,7 @@ metadata:
   name: rp-ambulance-ufe   #  určuje aj záznam DNS v rámci virtuálne siete klastra
 spec:
   selector:
-    app.kubernetes.io/name: rp-ambulance-wl
-    app.kubernetes.io/part-of: wac-hospital
+    pod: rp-ambulance-ufe-label
   ports:
   - name: http
     protocol: TCP

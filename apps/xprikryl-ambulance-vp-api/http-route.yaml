@@ -12,7 +12,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /xprikryl-ambulance-vp-api
+            value: /virtual-patient-api
       filters:
         - type: URLRewrite
           urlRewrite:

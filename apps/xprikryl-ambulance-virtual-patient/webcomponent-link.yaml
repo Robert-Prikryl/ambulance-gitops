@@ -12,11 +12,11 @@ spec:
       value: Virtualný pacient
     - name: supporting-text
       value: |
-        Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
+        Spravuje systém virtualných pacientov určených na študijné účely
     - name: material-icon
       value: home_health
     - name: href # presmerovanie po kliknutí na element polyfea-md-app
-      value: ./xprikryl-vp-list
+      value: ./xprikryl-ambulance-virtual-patient
   priority: 10
   displayRules: # pravidlá, kde sa má element vložiť v obálke
     - anyOf:
