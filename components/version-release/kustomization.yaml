@@ -4,6 +4,12 @@ images:
 - name: xprikryl/ambulance-ufe
   newName: xprikryl/ambulance-ufe
   newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: xprikryl/ambulance-wl-webapi
+  newName: xprikryl/ambulance-wl-webapi
+  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: xprikryl/ambulance-vp-api
+  newName: xprikryl/ambulance-vp-api
+  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: xprikryl/ambulance-virtual-patient
   newName: xprikryl/ambulance-virtual-patient
   newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú

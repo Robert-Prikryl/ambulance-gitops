@@ -19,6 +19,8 @@ resources:
 - ambulance-webapi.image-policy.yaml
 - ambulance-virtual-patient.image-repository.yaml
 - ambulance-virtual-patient.image-policy.yaml
+- ambulance-virtual-patient-api.image-repository.yaml
+- ambulance-virtual-patient-api.image-policy.yaml
 - secrets.kustomization.yaml
 
 patches:

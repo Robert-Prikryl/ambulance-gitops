@@ -10,3 +10,6 @@ images:
 - name: xprikryl/ambulance-wl-webapi
   newName: xprikryl/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-wl-webapi:name"}
   newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+- name: xprikryl/ambulance-vp-api
+  newName: xprikryl/ambulance-vp-api # {"$imagepolicy":  "wac-hospital:ambulance-vp-api:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-vp-api:tag"}

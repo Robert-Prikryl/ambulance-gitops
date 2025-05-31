@@ -11,10 +11,12 @@ resources:
 - ../../../apps/rp-ambulance-ufe
 - ../../../apps/rp-ambulance-webapi
 - ../../../apps/xprikryl-ambulance-virtual-patient
+- ../../../apps/xprikryl-ambulance-vp-api
 - ../../../apps/mongo-express
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
+- path: patches/ambulance-vp-api.service.yaml
 - path: patches/mongodb-auth.secret.yaml
 
 components:
