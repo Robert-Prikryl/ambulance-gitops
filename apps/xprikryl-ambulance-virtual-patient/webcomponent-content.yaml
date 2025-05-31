@@ -7,9 +7,9 @@ spec:
   element: xprikryl-vp-list
   attributes:
     - name: api-base
-      value: http://localhost:5001/api
-    - name: ambulance-id
-      value: bobulova
+      value: /api/virtual-patient
+    - name: base-path
+      value: /xprikryl-ambulance-virtual-patient
   displayRules:
     - allOf:
       - context-name: main-content
